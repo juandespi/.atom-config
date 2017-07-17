@@ -956,6 +956,9 @@
   'Border image':
     'prefix': 'boi'
     'body': '@include border-image(${1:border-image-value});$0'
+  'Box sizing':
+    'prefix': 'boxs'
+    'body': '@include box-sizing(${1:value});$0'
   'Calc':
     'prefix': 'calc'
     'body': '@include calc(${1:width}, ${2:value});$0'
