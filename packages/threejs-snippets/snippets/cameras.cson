@@ -1,0 +1,13 @@
+'.source.js':
+
+  'THREE.CubeCamera':
+    'prefix': 'cubecam'
+    'body': 'new THREE.CubeCamera(${1:near}, ${2:far}, ${3:cubeResolution})'
+
+  'THREE.OrthographicCamera':
+    'prefix': 'orthocam'
+    'body': 'new THREE.OrthographicCamera(${1:left}, ${2:right}, ${3:top}, ${4:bottom}, ${5:near}, ${6:far})'
+
+  'THREE.PerspectiveCamera':
+    'prefix': 'perspectivecam'
+    'body': 'new THREE.PerspectiveCamera(${1:fov}, ${2:aspect}, ${3:near}, ${4:far})'

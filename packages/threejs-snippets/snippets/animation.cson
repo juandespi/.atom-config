@@ -1,0 +1,25 @@
+'.source.js':
+
+  'THREE.Animation':
+    'prefix': 'animation'
+    'body': 'new THREE.Animation(${1:root}, ${2:name})'
+
+  'THREE.AnimationAction':
+    'prefix': 'animaction'
+    'body': 'new THREE.AnimationAction(${1:clip}, ${2:startTime}, ${3:timeScale}, ${4:weight}, ${5:loop})'
+
+  'THREE.AnimationClip':
+    'prefix': 'animclip'
+    'body': 'new THREE.AnimationClip(${1:name}, ${2:duration}, ${3:tracks})'
+
+  'THREE.AnimationMixer':
+    'prefix': 'animmixer'
+    'body': 'new THREE.AnimationMixer(${1:root})'
+
+  'THREE.KeyframeTrack':
+    'prefix': 'keytrack'
+    'body': 'new THREE.KeyframeTrack(${1:name}, ${2:keys})'
+
+  'THREE.PropertyBinding':
+    'prefix': 'propbinding'
+    'body': 'new THREE.PropertyBinding(${1:rootNode}, ${2:trackName})'

@@ -1,0 +1,61 @@
+'.source.js':
+
+  'THREE.BufferAttribute':
+    'prefix': 'bufferattr'
+    'body': 'new THREE.BufferAttribute(${1:array}, ${2:itemSize})'
+
+  'THREE.BufferGeometry':
+    'prefix': 'buffergeo'
+    'body': 'new THREE.BufferGeometry()'
+
+  'THREE.Channels':
+    'prefix': 'channels'
+    'body': 'new THREE.Channels()'
+
+  'THREE.Clock':
+    'prefix': 'clock'
+    'body': 'new THREE.Clock(${1:autoStart})'
+
+  'THREE.DirectGeometry':
+    'prefix': 'clock'
+    'body': 'new THREE.DirectGeometry()'
+
+  'THREE.EventDispatcher':
+    'prefix': 'eventdispatch'
+    'body': 'new THREE.EventDispatcher()'
+
+  'THREE.Face3':
+    'prefix': 'face3'
+    'body': 'new THREE.Face3(${1:vertexA}, ${2:vertexB}, ${3:vertexC}, ${4:normal}, ${5:color}, ${6:materialIndex})'
+
+  'THREE.Geometry':
+    'prefix': 'geometry'
+    'body': 'new THREE.Geometry()'
+
+  'THREE.InstancedBufferAttribute':
+    'prefix': 'instbufferattr'
+    'body': 'new THREE.InstancedBufferAttribute(${1:array}, ${2:itemSize}, ${3:meshAttribute})'
+
+  'THREE.InstancedBufferGeometry':
+    'prefix': 'instbuffergeo'
+    'body': 'new THREE.InstancedBufferGeometry()'
+
+  'THREE.InstancedInterleavedBuffer':
+    'prefix': 'instintbuffer'
+    'body': 'new THREE.InstancedInterleavedBuffer(${1:array}, ${2:stride}, ${3:meshPerAttribute})'
+
+  'THREE.InterleavedBuffer':
+    'prefix': 'intbuffer'
+    'body': 'new THREE.DirectGeometry(${1:array}, ${2:stride})'
+
+  'THREE.InterleavedBufferAttribute':
+    'prefix': 'intbufferattr'
+    'body': 'new THREE.InterleavedBufferAttribute(${1:interleavedBuffer}, ${2:itemSize}, ${3:offset})'
+
+  'THREE.Object3D':
+    'prefix': 'obj3d'
+    'body': 'new THREE.Object3D()'
+
+  'THREE.Raycaster':
+    'prefix': 'raycast'
+    'body': 'new THREE.Raycaster()'

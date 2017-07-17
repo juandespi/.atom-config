@@ -1,0 +1,9 @@
+'.source.js':
+
+  'THREE.Audio':
+    'prefix': 'audio'
+    'body': 'new THREE.Audio(${1:listener})'
+
+  'THREE.AudioListener':
+    'prefix': 'audiolistener'
+    'body': 'new THREE.AudioListener()'

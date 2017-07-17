@@ -1,0 +1,57 @@
+'.source.js':
+
+  # -------------------------------------------------
+  # Classes
+  # -------------------------------------------------
+
+  'THREE.Material':
+    'prefix': 'mat'
+    'body': 'new THREE.Material()${0}'
+
+  'THREE.LineBasicMaterial':
+    'prefix': 'linebasicmat'
+    'body': 'new THREE.LineBasicMaterial(${1:parameters})${0}'
+
+  'THREE.LineDashedMaterial':
+    'prefix': 'linedashedmat'
+    'body': 'new THREE.LineDashedMaterial(${1:parameters})${0}'
+
+  'THREE.MeshBasicMaterial':
+    'prefix': 'meshbasicmat'
+    'body': 'new THREE.MeshBasicMaterial(${1:parameters})${0}'
+
+  'THREE.MeshDepthMaterial':
+    'prefix': 'meshdepthmat'
+    'body': 'new THREE.MeshDepthMaterial(${1:parameters})${0}'
+
+  'THREE.MeshLambertMaterial':
+    'prefix': 'meshlambertmat'
+    'body': 'new THREE.MeshLambertMaterial(${1:parameters})${0}'
+
+  'THREE.MeshNormalMaterial':
+    'prefix': 'meshnormalmat'
+    'body': 'new THREE.MeshNormalMaterial(${1:parameters})${0}'
+
+  'THREE.MeshPhongMaterial':
+    'prefix': 'meshphongmat'
+    'body': 'new THREE.MeshPhongMaterial(${1:parameters})${0}'
+
+  'THREE.MultiMaterial':
+    'prefix': 'multimat'
+    'body': 'new THREE.MultiMaterial(${1:materials})${0}'
+
+  'THREE.PointsMaterial':
+    'prefix': 'pointsmat'
+    'body': 'new THREE.PointsMaterial(${1:parameters})${0}'
+
+  'THREE.RawShaderMaterial':
+    'prefix': 'rawshadermat'
+    'body': 'new THREE.RawShaderMaterial(${1:parameters})${0}'
+
+  'THREE.ShaderMaterial':
+    'prefix': 'shadermat'
+    'body': 'new THREE.ShaderMaterial(${1:parameters})${0}'
+
+  'THREE.SpriteMaterial':
+    'prefix': 'spritemat'
+    'body': 'new THREE.SpriteMaterial(${1:parameters})${0}'

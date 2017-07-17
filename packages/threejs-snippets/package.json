@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\BFJOHDES\\AppData\\Local\\Temp\\d-11764-159980-1m3vw0k.hiumxkzkt9\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\BFJOHDES\\AppData\\Local\\Temp\\d-11764-159980-1m3vw0k.hiumxkzkt9\\package.tgz",
+        "spec": "C:\\Users\\BFJOHDES\\AppData\\Local\\Temp\\d-11764-159980-1m3vw0k.hiumxkzkt9\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\BFJOHDES\\AppData\\Local\\Temp\\apm-install-dir-11764-159980-1vzgkk3.aecxm0lik9"
+    ]
+  ],
+  "_from": "..\\d-11764-159980-1m3vw0k.hiumxkzkt9\\package.tgz",
+  "_id": "threejs-snippets@0.0.8",
+  "_inCache": true,
+  "_location": "/threejs-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\BFJOHDES\\AppData\\Local\\Temp\\d-11764-159980-1m3vw0k.hiumxkzkt9\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\BFJOHDES\\AppData\\Local\\Temp\\d-11764-159980-1m3vw0k.hiumxkzkt9\\package.tgz",
+    "spec": "C:\\Users\\BFJOHDES\\AppData\\Local\\Temp\\d-11764-159980-1m3vw0k.hiumxkzkt9\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11764-159980-1m3vw0k.hiumxkzkt9\\package.tgz",
+  "_shasum": "52133a8d78749a4aef5c2ccd2ff81b513c5ad9b6",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\BFJOHDES\\AppData\\Local\\Temp\\d-11764-159980-1m3vw0k.hiumxkzkt9\\package.tgz",
+  "_where": "C:\\Users\\BFJOHDES\\AppData\\Local\\Temp\\apm-install-dir-11764-159980-1vzgkk3.aecxm0lik9",
+  "author": {
+    "name": "Dennis Evert"
+  },
+  "bugs": {
+    "url": "https://github.com/devert/atom-threejs-snippets/issues"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
+  "dependencies": {},
+  "description": "three.js snippets for Atom editor",
+  "devDependencies": {
+    "commitizen": "^2.1.0",
+    "cz-conventional-changelog": "^1.1.4",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^1.0.0",
+    "gulp-conventional-changelog": "^0.7.0",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-util": "^3.0.6",
+    "yargs": "^3.27.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/devert/atom-threejs-snippets",
+  "keywords": [
+    "threejs",
+    "three.js",
+    "javascript",
+    "snippets"
+  ],
+  "license": "MIT",
+  "name": "threejs-snippets",
+  "optionalDependencies": {},
+  "readme": "[![apm](https://img.shields.io/apm/v/threejs-snippets.svg)](https://atom.io/packages/threejs-snippets)\n[![Build Status](https://secure.travis-ci.org/devert/atom-threejs-snippets.svg)](https://travis-ci.org/devert/atom-threejs-snippets)\n[![Dependency Status](https://david-dm.org/devert/atom-threejs-snippets.svg)](https://david-dm.org/devert/atom-threejs-snippets)\n[![Dev Dependency Status](https://david-dm.org/devert/atom-threejs-snippets/dev-status.svg)](https://david-dm.org/devert/atom-threejs-snippets)\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n\n# Atom three.js Snippets\n\n[three.js](https://github.com/mrdoob/three.js/) snippet library for [Atom](https://atom.io/) editor.\n\n## Installation\n\nRun the following command:\n\n```sh\napm install threejs-snippets\n```\n\nThen reload Atom.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/devert/atom-threejs-snippets.git"
+  },
+  "version": "0.0.8",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "gulpfile.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
