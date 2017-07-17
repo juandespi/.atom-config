@@ -25,8 +25,8 @@
 ### HTML ###
 # '.text.html.basic':
 
-### CSS / SCSS ###
-'.source.css':
+### CSS / SCSS / SASS ###
+'.source.css, .source.sass, .source.scss':
   ## align-items
   'align-items':
     'prefix': 'ai'
@@ -1083,3 +1083,83 @@
   'Word wrap':
     'prefix': 'wordw'
     'body': '@include word-wrap(${1:value});$0'
+
+
+  # timing functions
+  # // ease in
+  'ease-in-quad':
+    'prefix': 'eiqd'
+    'body': '$ease-in-quad'
+  'ease-in-cubic':
+    'prefix': 'eicb'
+    'body': '$ease-in-cubic'
+  'ease-in-quart':
+    'prefix': 'eiqrt'
+    'body': '$ease-in-quart'
+  'ease-in-quint':
+    'prefix': 'eiqnt'
+    'body': '$ease-in-quint'
+  'ease-in-sine':
+    'prefix': 'eis'
+    'body': '$ease-in-sine'
+  'ease-in-expo':
+    'prefix': 'eixp'
+    'body': '$ease-in-expo'
+  'ease-in-circ':
+    'prefix': 'eicr'
+    'body': '$ease-in-circ'
+  'ease-in-back':
+    'prefix': 'eibk'
+    'body': '$ease-in-back'
+
+  # // ease out
+  'ease-out-quad':
+    'prefix': 'eoqd'
+    'body': '$ease-out-quad'
+  'ease-out-cubic':
+    'prefix': 'eocb'
+    'body': '$ease-out-cubic'
+  'ease-out-quart':
+    'prefix': 'eoqrt'
+    'body': '$ease-out-quart'
+  'ease-out-quint':
+    'prefix': 'eoqnt'
+    'body': '$ease-out-quint'
+  'ease-out-sine':
+    'prefix': 'eos'
+    'body': '$ease-out-sine'
+  'ease-out-expo':
+    'prefix': 'eoxp'
+    'body': '$ease-out-expo'
+  'ease-out-circ':
+    'prefix': 'eocr'
+    'body': '$ease-out-circ'
+  'ease-out-back':
+    'prefix': 'eobk'
+    'body': '$ease-out-back'
+
+  # // ease in out
+  'ease-in-out-quad':
+    'prefix': 'eioqd'
+    'body': '$ease-in-out-quad'
+  'ease-in-out-cubic':
+    'prefix': 'eiocb'
+    'body': '$ease-in-out-cubic'
+  'ease-in-out-quart':
+    'prefix': 'eioqrt'
+    'body': '$ease-in-out-quart'
+  'ease-in-out-quint':
+    'prefix': 'eioqnt'
+    'body': '$ease-in-out-quint'
+  'ease-in-out-sine':
+    'prefix': 'eios'
+    'body': '$ease-in-out-sine'
+  'ease-in-out-expo':
+    'prefix': 'eioxp'
+    'body': '$ease-in-out-expo'
+  'ease-in-out-circ':
+    'prefix': 'eiocr'
+    'body': '$ease-in-out-circ'
+  'ease-in-out-back':
+    'prefix': 'eiobk'
+    'body': '$ease-in-out-back'
