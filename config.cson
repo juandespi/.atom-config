@@ -15,7 +15,7 @@
       "atom-material-syntax"
     ]
   editor:
-    fontSize: 12
+    fontSize: 11
     invisibles: {}
     scrollPastEnd: true
   "exception-reporting":

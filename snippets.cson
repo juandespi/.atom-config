@@ -510,6 +510,18 @@
   'Border image':
     'prefix': 'boi'
     'body': '@include border-image(${1:border-image-value});$0'
+  'Border radius top':
+    'prefix': 'brt'
+    'body': '@include border-top-radius(${1}px);$0'
+  'Border radius right':
+    'prefix': 'brr'
+    'body': '@include border-right-radius(${1}px);$0'
+  'Border radius bottom':
+    'prefix': 'brb'
+    'body': '@include border-bottom-radius(${1}px);$0'
+  'Border radius left':
+    'prefix': 'brl'
+    'body': '@include border-left-radius(${1}px);$0'
   'Box sizing':
     'prefix': 'boxs'
     'body': '@include box-sizing(${1:value});$0'
@@ -519,6 +531,12 @@
   'Columns':
     'prefix': 'col'
     'body': '@include columns(${1:value});$0'
+  'Circle radius':
+    'prefix': 'circ'
+    'body': '@include circle;$0'
+  '@include display(flex)':
+    'prefix': 'idisf'
+    'body': '@include display(flex);$0'
   'Filter':
     'prefix': 'filt'
     'body': '@include filter(${1:value});$0'
